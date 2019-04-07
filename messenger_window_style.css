@@ -1,18 +1,19 @@
 body {
-    font-family: 'Lato', sans-serif;
-    
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    color: #1D2C2D;
   }
 
-  .messenger{
+.messenger{
     width: 800px;
     height: 600px;
     margin: auto;
-    border: 3px solid black;
+    border: 2px solid #1D2C2D;
 }
 
 .messenger-topic{
   height: 70px;
-  border-bottom: 3px solid black;
+  border-bottom: 2px solid #1D2C2D;
+  background-color: #6C7F81;
 }
 
 .create-info{
@@ -20,21 +21,28 @@ body {
 }
 
 h1{
+  display: inline-block;
   margin: 0px;
-  margin-left: 10px;
+  margin-left: 15px;
+}
+
+i{
+  margin-left: 220px;
+  font-size: 32px;
 }
 
 .topic-p{
   margin: 0px;
-  margin-left: 10px;
+  margin-left: 15px;
 }
 
 .messenger-workspace{
   width: 800px;
-  height: 530px;
+  height: 528px;
   display: flex;
   flex-direction: column;
   overflow: auto;
+  background-color: #DFE6E4;
 }
 
 .message-block{
@@ -43,9 +51,27 @@ h1{
 }
 
 .member{
-  width: 140px;
-  border-right: 3px solid black;
+  width: 150px;
+  border-right: 2px solid #1D2C2D;
   padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon{
+  width: 46px;
+  height: 46px;
+  border: 2px solid #1D2C2D;
+  border-radius: 50%;
+  line-height: 46px;
+  text-align: center;
+  background-color: #6C7F81;
+}
+
+.message-datetime{
+  font-size: 12px;
+  margin: 5px;
 }
 
 .message{
@@ -57,10 +83,11 @@ label{
 }
 
 .message-text{
-  width: 600px;
-  border: 3px solid black;
-  margin: 10px;
+  width: 587px;
+  border: 2px solid #1D2C2D;
+  margin: 0px 10px;
   padding: 5px;
+  background-color: #B0C2BD;
 }
 
 
