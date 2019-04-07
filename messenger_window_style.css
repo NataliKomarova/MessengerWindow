@@ -1,0 +1,67 @@
+body {
+    font-family: 'Lato', sans-serif;
+    
+  }
+
+  .messenger{
+    width: 800px;
+    height: 600px;
+    margin: auto;
+    border: 3px solid black;
+}
+
+.messenger-topic{
+  height: 70px;
+  border-bottom: 3px solid black;
+}
+
+.create-info{
+  display: flex;
+}
+
+h1{
+  margin: 0px;
+  margin-left: 10px;
+}
+
+.topic-p{
+  margin: 0px;
+  margin-left: 10px;
+}
+
+.messenger-workspace{
+  width: 800px;
+  height: 530px;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.message-block{
+  display: flex;
+  justify-content: space-around;
+}
+
+.member{
+  width: 140px;
+  border-right: 3px solid black;
+  padding: 5px;
+}
+
+.message{
+  padding: 5px;
+}
+
+label{
+  margin: 10px;
+}
+
+.message-text{
+  width: 600px;
+  border: 3px solid black;
+  margin: 10px;
+  padding: 5px;
+}
+
+
+
